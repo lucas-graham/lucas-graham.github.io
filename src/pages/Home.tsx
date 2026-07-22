@@ -1,4 +1,5 @@
 import { Box, Typography, Container, Grid } from "@mui/material";
+import profileImage from "../assets/profileImage.jpg"; // Adjust the path as necessary
 
 const Home = () => {
   return (
@@ -69,7 +70,7 @@ const Home = () => {
                 }}
               >
                 <img
-                  src='../src/assets/profileImage.jpg'
+                  src={profileImage}
                   alt='Profile'
                   style={{
                     maxHeight: "100%",
