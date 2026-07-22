@@ -1,6 +1,5 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "./Navbar.css";
-import Typography from "@mui/material/Typography";
 
 export default function Navbar() {
   return (
