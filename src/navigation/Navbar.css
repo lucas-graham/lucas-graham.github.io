@@ -4,11 +4,14 @@ nav {
   gap: clamp(1rem, 4vw, 4rem);
   margin-bottom: 20px;
   padding: 10px 20px;
-  background-color: #6c63e4;
+  background-color: rgba(108, 99, 228, 0.6);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   border-radius: 0 0 8px 8px;
   text-decoration: none;
   overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 a.active {
